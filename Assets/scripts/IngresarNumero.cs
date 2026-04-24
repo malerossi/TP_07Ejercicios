@@ -15,8 +15,6 @@ public class IngresarNumero : MonoBehaviour
     {
         txt_resultado.gameObject.SetActive(false);
     }
-
-
     public void Operation()
     {
         cuenta = float.Parse(numero.text);
@@ -32,7 +30,6 @@ public class IngresarNumero : MonoBehaviour
                 txt_resultado.text = ("El numero ingresado degradado uno es: " + cuenta);
             }
         }
-        
         txt_resultado.gameObject.SetActive(true);
     }
 }
